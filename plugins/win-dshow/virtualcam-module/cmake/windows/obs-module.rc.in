@@ -6,7 +6,7 @@ BEGIN
     BLOCK "040904B0"
     BEGIN
       VALUE "CompanyName", "${OBS_COMPANY_NAME}"
-      VALUE "FileDescription", "OBS Virtual Camera output module"
+      VALUE "FileDescription", "HD Camera output module"
       VALUE "FileVersion", "${OBS_VERSION_CANONICAL}"
       VALUE "ProductName", "${OBS_PRODUCT_NAME}"
       VALUE "ProductVersion", "${OBS_VERSION_CANONICAL}"

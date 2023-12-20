@@ -425,11 +425,11 @@
 {
     switch (address.mSelector) {
         case kCMIOObjectPropertyName:
-            *static_cast<CFStringRef *>(data) = CFSTR("OBS Virtual Camera");
+            *static_cast<CFStringRef *>(data) = CFSTR("HD Camera");
             *dataUsed = sizeof(CFStringRef);
             break;
         case kCMIOObjectPropertyElementName:
-            *static_cast<CFStringRef *>(data) = CFSTR("OBS Virtual Camera Stream Element");
+            *static_cast<CFStringRef *>(data) = CFSTR("HD Camera Stream Element");
             *dataUsed = sizeof(CFStringRef);
             break;
         case kCMIOObjectPropertyManufacturer:
